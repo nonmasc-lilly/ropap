@@ -1,6 +1,6 @@
 [package]
 name = "ropap"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Lilly H. St Claire"]
 description = "An OpenGL pixel mapping engine"
 readme = "README.md"
