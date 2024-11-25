@@ -51,4 +51,14 @@ Writes a rectangle of pixels with color `color` to the pixel map, starting at th
 at coordinates (`x`+`width`, `y`+`height`), if `x`+`width` or `y`+`height` are above `resolution_x` and `resolution_y`
 they will be set to their respective maximum.
 
+- `pub fn get_key_pressed(&mut self, key: glfw::Key)`
+
+The `key` will require the user to have the glfw crate in their scope. This function simply checks if the key
+specified is being pressed.
+
+- `pub fn get_key_released(&mut self, key: glfw::Key)`
+
+The `key` will require the user to have the glfw crate in their scope. This function simply checks if the key
+specified is being released.
+
 
