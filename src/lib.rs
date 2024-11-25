@@ -315,4 +315,10 @@ impl Renderer {
         }
         self.changed = true;
     }
+    pub fn get_key_pressed(&mut self, key: glfw::Key) -> bool {
+        return self.window.get_key(key) == glfw::Action::Press;
+    }
+    pub fn get_key_released(&mut self, key: glfw::Key) -> bool {
+        return self.window.get_key(key) == glfw::Action::Release;
+    }
 }
