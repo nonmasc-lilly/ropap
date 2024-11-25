@@ -1,0 +1,12 @@
+[package]
+name = "ropap"
+version = "0.1.0"
+authors = ["Lilly H. St Claire"]
+description = "An OpenGL pixel mapping engine"
+readme = "README.md"
+edition = "2021"
+license-file = "LICENSE"
+
+[dependencies]
+glfw = "0.58.0"
+gl33 = "0.2.1"

@@ -1,0 +1,6 @@
+project         = "ROPAP"
+author          = "Lilly H. St Claire"
+description     = "OpenGL Pixel mAPper written in Rust"
+year            = 2024
+prepend         = true
+standout        = true
