@@ -313,5 +313,6 @@ impl Renderer {
             let end:        usize = beginning+(f_width as usize);
             self.pixel_map[beginning..end].fill(color);
         }
+        self.changed = true;
     }
 }
